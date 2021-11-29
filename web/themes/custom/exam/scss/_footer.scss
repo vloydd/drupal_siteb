@@ -63,19 +63,23 @@
         }
       }
     }
-    .block-addtoany {
-      margin: auto 0;
-      justify-content: end;
+    #block-socialmedialinks-2 {
       display: flex;
-      padding: 0;
-      margin-right: -3px;
-      @media (max-width: 1330px) {
-        margin-right: 0;
+      .title__container {
+        padding: 0;
+      }
+      .section {
+        display: flex;
+        .container-1250 {
+          margin: auto 0;
+          @media (max-width: 575px) {
+            padding: 0;
+          }
+          .social-media-links--platforms {
+            margin: -3px -2px 0 0;
+          }
+        }
       }
     }
-    .addtoany_list > a {
-      padding: 0 6px;
-    }
-
   }
 }

@@ -16,7 +16,6 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/addtoany": "^1.15",
         "drupal/admin_toolbar": "^3.0",
         "drupal/bootstrap": "^3.23",
         "drupal/bootstrap_barrio": "^5.5",
@@ -26,7 +25,6 @@
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
         "drupal/custom_search": "^1.0@beta",
-        "drupal/devel": "^4.1",
         "drupal/flag": "^4.0@beta",
         "drupal/google_map_field": "^1.14",
         "drupal/inline_entity_form": "^1.0@RC",

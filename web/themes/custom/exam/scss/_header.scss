@@ -17,8 +17,9 @@ $container-padding-x: 15px;
 * {
   box-sizing: border-box;
   //overflow-x: hidden;
-  body {
+  html, body {
     min-width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     margin-top: 0;
     header {
@@ -203,19 +204,6 @@ $container-padding-x: 15px;
                 }
               }
             }
-            .block-addtoany {
-              padding: 10px 0 0 24px;
-              max-width: 151px;
-              @media (max-width: 1249px) {
-                padding: 10px 0 0;
-                max-width: 105px;
-              }
-              @media (max-width: 991px) {
-                text-align: center;
-                padding: 7px 0;
-                max-width: 100%;
-              }
-            }
             .head-search {
               padding: 0;
               @media (min-width: 992px) {
@@ -230,7 +218,10 @@ $container-padding-x: 15px;
                 padding-right: 0;
               }
               height: 40px;
-              #views-exposed-form-services-page-1 {
+              #views-exposed-form-services-search-page {
+                .form-type-textfield {
+                  margin: 0;
+                }
                 height: 40px;
                 .form-inline {
                   height: 40px;
@@ -275,6 +266,29 @@ $container-padding-x: 15px;
                     @media (max-width: 1249px) {
                       padding: 2px;
                     }
+                  }
+                }
+              }
+            }
+            #block-socialmedialinks {
+              padding: 0;
+              @media (min-width: 992px) {
+                max-width: 145px;
+              }
+              .container-1250 {
+                padding: 0;
+                .social-media-links--platforms {
+                  text-align: center;
+                  @media (min-width: 1250px) {
+                    margin-left: 21px;
+                    margin-right: 11px;
+                  }
+                  @media (min-width: 992px) {
+                    margin-left: 8px;
+                    margin-right: 8px;
+                  }
+                  @media (max-width: 991px) {
+                    margin: 0;
                   }
                 }
               }
