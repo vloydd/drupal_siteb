@@ -1,5 +1,5 @@
 @import "variables";
-#block-views-our-team-block {
+#block-our-team-block {
   margin-top: 88px;
   @media (max-width: 767px) {
     margin-top: 50px ;
@@ -33,7 +33,7 @@
     }
   }
   .section {
-    padding: 31px 0 94px 0;
+    padding: 31px 0 114px 0;
     @media (max-width: 767px) {
       padding: 20px 0 50px 0;
     }
@@ -80,7 +80,7 @@
           font-size: 13px;
           letter-spacing: 0.02em;
         }
-        .views-field-view-node {
+        .views-field-view-node-1 {
           margin-top: 15px;
           .btn {
             background-color: $darkblue;
@@ -146,35 +146,23 @@
             }
           }
         }
-        //.views-field-addtoany-share {
-        //  padding: 0 0 10px 0;
-        //  .field-content {
-        //    padding: 0;
-        //    text-align: start;
-        //    @media (max-width: 991px) {
-        //      text-align: center;
-        //    }
-        //    @media (max-width: 475px) {
-        //      text-align: start;
-        //    }
-        //  }
-        //}
         .views-field-link-flag {
-          .like-btn {
             margin-top: 3px;
             padding: 0;
             margin-left: -14px;
-            @media (max-width: 767px) {
-              text-align: start;
+            .field-content {
+              padding: 0;
+              @media (max-width: 767px) {
+                text-align: start;
+              }
+              @media (max-width: 574px) {
+                text-align: center;
+              }
+              a {
+                color: $lightgrayer;
+                text-decoration: none;
+              }
             }
-            @media (max-width: 574px) {
-              text-align: center;
-            }
-            a {
-              color: $lightgrayer;
-              text-decoration: none;
-            }
-          }
         }
       }
       .view_wrapper:first-child {
@@ -182,15 +170,17 @@
         @media (max-width: 1249px)  {
           padding: 0 15px;
         }
-        .views-field-view-node {
+        .views-field-view-node-1 {
           margin-bottom: 17px;
         }
         .views-field-field-social-link {
           margin-left: -1px;
         }
-        .views-field-link-flag .like-btn {
-          margin-left: -0px;
-          margin-top: 3px;
+        .views-field-link-flag {
+          .field-content {
+            margin-left: 11px;
+            margin-top: 6px;
+          }
         }
       }
       .view_wrapper:nth-child(2) {
@@ -200,20 +190,26 @@
             margin: 0 auto;
           }
         }
+
         .views-field-field-team-name {
           margin-left: 5px;
           letter-spacing: 0;
         }
-        .views-field-view-node {
+
+        .views-field-view-node-1 {
           margin-left: 7px;
           margin-bottom: 23px;
         }
+
         .views-field-field-social-link {
           margin-left: 4px;
         }
-        .views-field-link-flag .like-btn {
-          margin-left: 7px;
-          margin-top: 4px;
+
+        .views-field-link-flag {
+          .field-content {
+            margin-left: 15px;
+            margin-top: 4px;
+          }
         }
       }
       .view_wrapper:nth-child(3) {
@@ -225,16 +221,18 @@
           margin-left: 13px;
           letter-spacing: -0.015em;
         }
-        .views-field-view-node {
+        .views-field-view-node-1 {
           margin-left: 15px;
           margin-bottom: 19px;
         }
         .views-field-field-social-link {
           margin-left: 3px;
         }
-        .views-field-link-flag .like-btn {
-          margin-left: 9px;
-          margin-top: 5px;
+        .views-field-link-flag {
+          .field-content {
+            margin-left: 19px;
+            margin-top: 5px;
+          }
         }
       }
       .view_wrapper:nth-child(4) {
@@ -253,16 +251,18 @@
           margin-left: 11px;
           letter-spacing: 0.075em;
         }
-        .views-field-view-node {
+        .views-field-view-node-1 {
           margin-left: 10px;
           margin-bottom: 22px;
         }
         .views-field-field-social-link {
           margin-left: 13px;
         }
-        .views-field-link-flag .like-btn {
-          margin-left: 9px;
-          margin-top: 5px;
+        .views-field-link-flag {
+          .field-content {
+            margin-left: 19px;
+            margin-top: 5px;
+          }
         }
       }
     }
