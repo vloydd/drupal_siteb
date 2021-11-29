@@ -1,0 +1,39 @@
+$grid-columns: 12;
+$gridColumnWidth: 85px;
+$gridGutterWidth: 21px;
+$gutterM: 20px;
+$gutterS: 10px;
+$padding-btn-stand-x: 8px;
+$padding-btn-stand-y: 5px;
+$sourcesans-ssf: 'Source Sans Pro', sans-serif;
+$podkova-sf:  'Podkova', serif;
+$darkblue: #373645;
+$bluesky: #6e9bca;
+$lightgray: #cac9cd;
+$lightblue: #008ed6;
+$white: #ffffff;
+$lightgrayer: #999999;
+$priceborder: #e0e0e0;
+$easybrown: #f2f2f2;
+$dark: #373645;
+$bordergray: #cccccc;
+$peppypeacock: #53ccb3;
+$purple: #a569bc;
+$firered: #e84c3d;
+$summersky: #2baae0;
+
+
+$darkgray: #444348;
+$black: #1a1a1a;
+$browngray: #ededed;
+$pinkiered: #ff7878;
+$dangercl: #fd9898;
+//@grid-float-breakpoint: @screen-lg-min;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1280px
+);

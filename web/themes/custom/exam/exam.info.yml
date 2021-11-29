@@ -1,0 +1,25 @@
+type: theme
+base theme: bootstrap
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+name: 'Exam Theme'
+description: 'Exam Bootstrapped Subtheme'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  head_block: 'Headblock'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - exam/node-styling
+libraries-extend:
+  bootstrap/framework:
+    - exam/framework
